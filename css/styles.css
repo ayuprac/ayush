@@ -176,7 +176,9 @@ hr {
 .sec {
     text-align: left;
 }
-
+.tec {
+    text-align: left;
+}
 .disc {
     color: red;
     text-decoration-thickness: 2px;
