@@ -71,21 +71,7 @@ p {
 
 }
 
-.f3 {
-    width: 450px;
-    height: 400px;
-    position: absolute;
-    top: 410px;
-    margin-left: 55px;
-}
 
-.f4 {
-    width: 450px;
-    height: 400px;
-    position: absolute;
-    top: 500px;
-    right: 46px;
-}
 
 hr {
     position: relative;
@@ -162,7 +148,7 @@ hr {
     ;
 }
 
-.G {
+.Gy {
     margin-left: 260px;
     margin-bottom: 20px;
 }
