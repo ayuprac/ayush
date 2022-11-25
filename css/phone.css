@@ -1,0 +1,12 @@
+/* top section */
+#top{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#top::before{
+    height: 480px; 
+}
+p{
+    font-size: 25px;
+}
