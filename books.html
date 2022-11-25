@@ -8,12 +8,19 @@
     <title>books</title>
     <link rel="icon" href="favicon.ico">
     <style>
+        *{margin: 0;
+padding: 0;
+        }
+        #tab{
+            height: 600px;
+            
+        }
         table{
-            position: absolute;
-            top: 50px;
-            left: 28%;
-        width: 50%;
-    height: 50% ;
+            position: sticky;
+            
+        width:100%;
+        height: 100%;
+ 
     border: 7px solid black;
 
 }
@@ -33,39 +40,41 @@ img{padding-top: 150px;
 </head>
 
 <body>
-    <table border="9" >
-        <tr class="thead">
-            <th>Book</th>
-            
-            <th>Author</th>
-        </tr>
-       <tr class="tdata">
-        <td>Sapiens</td>
-        <td>Yuval Harrari</td>
-       </tr>
-       <tr class="tdata">
-        <td>7 Habits</td>
-        <td>S.Covey</td>
-       </tr>
-       <tr class="tdata">
-        <td>Subconscious Mind</td>
-        <td>J.Murphy</td>
-       </tr>
-       <tr class="tdata">
-        <td>The Alchemist</td>
-        <td>P.Coelho</td>
-       </tr>
-       <tr class="tdata">
-        <td>Man's search for meaning</td>
-        <td>Dr. V. Frankl</td>
-
-       </tr>
-
-
-
-    </table>
-    <div>
-    <img src="images/tabledesign1.webp" alt="des"></div>
+    <section id="tab">
+        <table border="9" >
+            <tr class="thead">
+                <th>Book</th>
+                
+                <th>Author</th>
+            </tr>
+           <tr class="tdata">
+            <td>Sapiens</td>
+            <td>Yuval Harrari</td>
+           </tr>
+           <tr class="tdata">
+            <td>7 Habits</td>
+            <td>S.Covey</td>
+           </tr>
+           <tr class="tdata">
+            <td>Subconscious Mind</td>
+            <td>J.Murphy</td>
+           </tr>
+           <tr class="tdata">
+            <td>The Alchemist</td>
+            <td>P.Coelho</td>
+           </tr>
+           <tr class="tdata">
+            <td>Man's search for meaning</td>
+            <td>Dr. V. Frankl</td>
+    
+           </tr>
+    
+    
+    
+        </table>
+    </section>
+    
+    
 </body>
 
 </html>
