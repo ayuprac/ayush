@@ -42,8 +42,8 @@ h1 {
     font-size: 5.5em;
     font-family: sacramento;
 }
-.msg{
-    color::black ;
+ #top .msg{
+    color: #0f0409 ;
 font-family: dynapuff;
     font-size:2em;
 }
